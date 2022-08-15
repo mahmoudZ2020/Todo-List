@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App JavaScript </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>Todo App</header>
+    <div class="inputField">
+      <input id="getData" type="text" placeholder="Add your new todo">
+      <button id="addBtn"><i class="fas fa-plus"></i></button>    
+      <button id="addBtn1"><i class="fas fa-pen"></i></button>  
+    </div>
+    <ul id="todoList">
+      <!-- data are comes from local storage -->
+    </ul>
+    <div class="footer">
+      <span>You have <span id="pendingTasks"></span> pending tasks</span>
+      <button id="clearBtn">Clear All</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
